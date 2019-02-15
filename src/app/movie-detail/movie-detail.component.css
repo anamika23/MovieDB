@@ -1,0 +1,96 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css');
+
+.row{clear: both}
+.toprow{
+    margin-top: 1%;
+}
+.movieRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.single .card {
+    margin: 1%;
+    box-shadow: 0 1px 6px 0px #00000054;
+    padding: 1%;
+    display: flex;
+    align-items: start;
+}
+
+.single .card .col-md-4 {
+    width: 40%;
+}
+
+.single .card .col-md-8 {
+    padding: 0 2%;
+}
+
+.single .card  h3 {
+    margin: 0;
+    color: #01d173;
+    font-size: 27px;
+}
+ul.genres {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+}
+
+ul.genres li {
+    display: inline-flex;
+    background: #000;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 11px;
+    margin: 0 1% 0 0;
+    border-radius: 25px;
+}
+.single .card p {
+    line-height: 24px;
+    font-size: 13px;
+    color: #444;
+}
+
+.card mb-12 shadow{
+    width:100%;
+}
+
+.team-sec{float: left;width: 100%;}
+
+.slick-slide img{
+    max-width: 100%
+}
+
+.slick-initialized .slick-slide{
+    padding: 5px;
+}
+section.team-sec {
+    display: block;
+}
+
+section.team-sec .card.shadow {
+    display: block;
+}
+.container {
+    width: 90%;
+}
+.slick-slider .slick-list.draggable {
+    width: 1180px;
+    margin: 0 auto;
+   
+}
+.slick-list.draggable {
+    width: 90%;
+}
+ngx-slick-carousel.cast-carousel.slick-initialized.slick-slider {
+    width: 1150px !important;
+    margin: 2% auto;
+    position: relative;
+    z-index: 99;
+}
+

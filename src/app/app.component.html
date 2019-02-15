@@ -1,0 +1,32 @@
+<div>
+<div class="headers">
+<div class="logo"><a href="#default" class="logo">
+  <img src="/assets/images/moviedb.jpg" alt="The Movie Database (TMDb)" width="81" height="72"></a></div>
+<div class="nav" id="mynav">
+  <a class="#discover" href="#news"> Discover</a>
+  <a href="#movies" class="about">Movies</a>
+  <a href="#shows" class="news"> TV Shows</a>
+  <a href="#people" class="contact">People</a> </div>
+</div>
+
+
+<input type="search" class="searchbar" placeholder="Search for a movie, tv show, person..." (keyup)="getValue($event)" value=""> 
+
+</div>
+
+<div class="autoComplete">
+  <ul class="w3-ul w3-tiny">
+    <li *ngFor="let i of movieresults | slice:0:05; ">
+      <a href="movie-detail/{{i.id}}">{{i.title}}</a>
+    </li>
+  </ul>
+</div>
+
+ <div class="body">
+<div class="container">
+
+   <router-outlet></router-outlet>
+
+</div>
+</div> 
+

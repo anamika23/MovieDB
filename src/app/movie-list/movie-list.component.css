@@ -1,0 +1,21 @@
+.row{
+    margin-top: 1%;
+}
+.movieRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.movieRow .col-md-4 {
+    width: 26%;
+    flex-grow: 1;
+    margin: 1%;
+    box-shadow: 0 1px 6px 0px #00000054;
+    padding: 1%;
+}
+
+.movieRow .col-md-4 img {
+    max-width: 100%;
+}
